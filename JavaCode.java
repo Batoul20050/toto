@@ -1,9 +1,10 @@
-//----------------------------------------------------------------------------------------------
+package com.mycompany.javacode;
+// Name: Batoul Hallaq
+// ID: 445013931
 // Java code for linearly search x in arr[]. If x
 // is present then return its location, otherwise
 // return -1
-class LinearSearch {
-
+public class JavaCode {
     // This function returns index of element x in arr[]
     static int search(int arr[], int n, int x) {
 
@@ -28,7 +29,7 @@ class LinearSearch {
 
         int n = arr.length;
 
-        int x = 4;
+        int x = 7;
 
         int index = search(arr, n, x);
 
@@ -42,4 +43,5 @@ class LinearSearch {
 
 }
 
-//------------------------------------------------------------------------------------------------------
+
+
